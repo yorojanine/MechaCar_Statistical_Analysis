@@ -1,9 +1,10 @@
-# MechaCar_Statistical_Analysis
+# MechaCar Statistical Analysis using R
 
-## Linear Regression to Predict MPG
+The purpose of the challenge was to apply statistical analysis using the programming language "R" to provide insight on production data for an auto company.
+
+## Linear Regression to Predict MPG (Deliverable 1)
 Summary: After reading in the `MechaCar_mpg.csv` file, the lm() function is used to pass in all six variables (columns from the dataset) to determine their coefficients. 
-The function is used for building linear models, in which it takes in two main arguements 1. Formula 2. Data. Here in the function, the "Formula" is taking in the six variables,
-whereas the "Data" is the dataframe created when we brought in the csv file. 
+The function is used for building linear models, in which it takes in two main arguements 1. Formula 2. Data. Here in the function, the "Formula" is predicting the dependent variable(mpg) by adding the 5 other variables of interest (our independent variables), whereas the "Data" is the dataframe created when we brought in the csv file. 
 
 ### Multiple Linear Regression Model 
 ![](resources/Deliverable_1a.PNG)
@@ -15,7 +16,9 @@ First, you can just pass the lm() formula we wrote as is through the summary () 
 ![](resources/Deliverable_1c.PNG)
 
 <i>Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?</i><br>
-answer.
+Looking at the p-values of each coefficient, we can see that vehicle_length and ground_clearance(as well as intercept) are unlikely to provide random amounts of variance
+to the linear model. This means that these variables have a significant impact on mpg. In addition, because the intercept is significant, there are other variables that
+contribute to the variation that have not been included in the model. 
 
 <i>Is the slope of the linear model considered to be zero? Why or why not?</i><br>
 The slope is not considered to be zero as the intercept determines 
