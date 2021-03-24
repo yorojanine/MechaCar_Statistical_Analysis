@@ -21,9 +21,12 @@ to the linear model. This means that these variables have a significant impact o
 contribute to the variation that have not been included in the model. 
 
 <i>Is the slope of the linear model considered to be zero? Why or why not?</i><br>
-The slope is not considered to be zero as the intercept determines 
+Despite the estimate coefficients being extremely close to zero, it's inaccurate to claim that the slope is in fact zero. 
+In addition, the p-value of 5.35e-11 states that there is a significant relationship, meaning then that the slope will not be equal to zero.
+The null hypothesis states that the slope is equal to zero, and with this significance level, we are rejecting the null. 
 
-<i>Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?</i>
+<i>Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?</i><br>
+Based on the R2(R-squared) value of 0.7149, it means that 71% of the variance measuring mpg can be predicted by the variables taken into account. However, to adjust for variables with a weaker association, by looking at the Adjusted R-squared, we can state that the prediction model is 68.25% effective.
 
 ---
 
