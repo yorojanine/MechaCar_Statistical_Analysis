@@ -41,21 +41,26 @@ Based on the R2(R-squared) value of 0.7149, it means that 71% of the variance me
 <i>The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?</i><br>
 Based on the requirements and the summaries provided, we can see that across all manufacturing lots, together they meet the design specifications. As noted in the variance, the 62.29 PSI does not exceed the 100 PSI specification. Looking at the breakdown summary of each lot, we see that Lot 1 and Lot 2 meet the specifications. Lot 1 has a PSI of 0.98 while Lot 2 shows a 7.47 PSI, well below the 100 PSI requirement. Unfortunately, the summary shows Lot 3 does not meet the specification, but rather exceeds it with a 170.29 PSI.
 
-
 ---
 
-## T-Tests on Suspension Coils
+## T-Tests on Suspension Coils (Deliverable 3)
 
-<b>All Lots</b><br>
+Using R, t-tests were performed to "determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch."
+
+Before testing, we are assuming the null hypothesis (H0) to indicate that there is no statistical difference between the lot and the population mean, where as the alternative hypothesis (H1) assumes there is a statistical difference between the lot and the population.
+
+<b>All Lots</b> (p > 0.05)<br>
 ![](resources/Deliverable_3a.PNG)<br>
-<b>Lot1</b><br>
+<b>Lot1</b> (p > 0.05)<br>
 ![](resources/Deliverable_3b.PNG)<br>
-<b>Lot2</b><br>
+<b>Lot2</b> (p > 0.05)<br>
 ![](resources/Deliverable_3c.PNG)<br>
-<b>Lot3</b><br>
+<b>Lot3</b> (p < 0.05)<br>
 ![](resources/Deliverable_3d.PNG)<br>
 
-<b>Summary:</b>
+<b>Summary:</b> In order to determine if the lots are significantly different from the population mean, we can reference our p-values to draw our conclusion.
+Should the p-value be higher than 0.05 (> 0.05), it is an indication that it is not statistically significant and indicates evidence for the null hypothesis.
+Here we can accept/fail to reject the null hypothesis and reject the alternative hypothesis. As shown above, all the lots combined have a p-value greater than 0.05 (p=0.06), which means that all the lots combined have no statistical difference from the population mean. Further, both Lot1 (p=1) and Lot2 (p=0.61) have p-values greater than 0.05, which again we fail to reject the null hypothesis and claim there is no statistical difference from the population mean. In contrast, the summary shows for Lot3 a p-value of 0.04, which means it's less than 0.05 (p < 0.05). A p-value less than 0.05 indicates statiscal significnae. It's a strong indicat
 
 ---
 ## Study Design: MechaCar vs Competition
