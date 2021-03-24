@@ -49,7 +49,7 @@ Using R, t-tests were performed to "determine if all manufacturing lots and each
 
 Before testing, we are assuming: <br>
 the null hypothesis (H0) to indicate that there is no statistical difference between the lot and the population mean, where as <br> 
-the alternative hypothesis (H1) assumes there is a statistical difference between the lot and the population.
+the alternative hypothesis (H1) assumes there is a statistical difference between the lot and the population mean.
 
 <b>All Lots</b> (p > 0.05)<br>
 ![](resources/Deliverable_3a.PNG)<br>
@@ -60,9 +60,10 @@ the alternative hypothesis (H1) assumes there is a statistical difference betwee
 <b>Lot3</b> (p < 0.05)<br>
 ![](resources/Deliverable_3d.PNG)<br>
 
-<b>Summary:</b> In order to determine if the lots are significantly different from the population mean, we can reference our p-values to draw our conclusion.
-Should the p-value be higher than 0.05 (> 0.05), it is an indication that it is not statistically significant and indicates evidence for the null hypothesis.
-Here we can accept/fail to reject the null hypothesis and reject the alternative hypothesis. As shown above, all the lots combined have a p-value greater than 0.05 (p=0.06), which means that all the lots combined have no statistical difference from the population mean. Further, both Lot1 (p=1) and Lot2 (p=0.61) have p-values greater than 0.05, which again we fail to reject the null hypothesis and claim there is no statistical difference from the population mean. In contrast, the summary shows for Lot3 a p-value of 0.04, which means it's less than 0.05 (p < 0.05). A p-value less than 0.05 indicates statistical significance. It's strong evidence against the null hypothesis, thus it allows the rejection of the null hypt
+<b>Summary:</b><br>In order to determine if the lots are significantly different from the population mean, we can reference our p-values to draw our conclusion.
+<br><br>Should the p-value be higher than 0.05 (> 0.05), it is an indication that it is not statistically significant and indicates evidence for the null hypothesis.
+Here we can accept/fail to reject the null hypothesis and reject the alternative hypothesis. As shown above, all the lots combined have a p-value greater than 0.05 (p=0.06), which means that all the lots combined have no statistical difference from the population mean. Further, both Lot1 (p=1) and Lot2 (p=0.61) have p-values greater than 0.05, which again we fail to reject the null hypothesis and claim there is no statistical difference from the population mean.
+<br><br>In contrast, the summary shows for Lot3 a p-value of 0.04, which means it's less than 0.05 (p < 0.05). A p-value less than 0.05 indicates statistical significance. It's strong evidence against the null hypothesis, in which we can reject the null hypothesis and accept the alternative hypothesis. In our test for Lot 3, we can derive that it's statistically significant and assume there is a statistical difference between the lot and the population mean.
 
 ---
 ## Study Design: MechaCar vs Competition
