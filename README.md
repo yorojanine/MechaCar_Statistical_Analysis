@@ -34,8 +34,10 @@ Based on the R2(R-squared) value of 0.7149, it means that 71% of the variance me
 
 "In this dataset, the weight capacities of multiple suspension coils were tested to determine if the manufacturing process is consistent across production lots." Using R, the following summary statistics table show: <br> 
 (1) The suspension coil’s PSI continuous variable across all manufacturing lots<br>
+![](resources/Deliverable_2a.PNG)<br>
 (2) The following PSI metrics for each lot: mean, median, variance, and standard deviation.<br>
-![](resources/Deliverable_2a.PNG) ![](resources/Deliverable_2b.PNG) <br>
+![](resources/Deliverable_2b.PNG) <br>
+
 <i>The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?</i><br>
 
 
