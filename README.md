@@ -71,11 +71,19 @@ Here we can fail to reject the null hypothesis and reject the alternative hypoth
 
 <i>Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating. </i><br>
 
-
 <i><b>What metric or metrics are you going to test?</b></i><br>
+The cost of a vehicle and it's comparison to the competition would be ideal to consider for a statistical study. So, for a study design
+I would consider <b>cost</b> for testing the MechaCar vehicle against a population average cost of similar vehicles from other manufacturers. 
+In addition, I would like to see how other competitors measure against the population and compare them to MechaCar.
 
 <i><b>What is the null hypothesis or alternative hypothesis?</b></i><br>
+(H0): There is no statistical difference between the vehicle and the population mean.<br> 
+(H1): There is a statistical difference between the vehicle and the population mean.
 
 <i><b>What statistical test would you use to test the hypothesis? And why?</b></i><br>
+Resembling the lots exercise in Deliverable 2 and 3, I would consider running similiar statistical tests. First, I would run a summary statistics test to determine the average
+vehicle cost. Next, I would perform t-tests of each vehicle (both MechaCar and other competitors) and determine if there is a statistical difference from the population mean.
+Should the p-value of each test be greater than 0.05, I can say that the cost of the vechile has no statistical difference from the mean and assume the cost is around market-price. However, should the p-value be less than 0.05, it can be inferred that there is a statistical difference from the population. Further, it can be assumed that the cost of the vehicle is either overpriced or undervalued compared to market. Lastly, we'd be able compare the results of each t-test and determine how the MechaCar vehicle fares against the competitors. We can address whether the MechaCar is priced correctly against the market and if it's competitive against the other manufacturers.
 
 <i><b>What data is needed to run the statistical test?</b></i><br>
+In order to perform the outlined statistical tests, the data gathered would need to reflect the manufacturers (including AutosRUs'), vehicleID of all the prototypes simliar to the MechaCar, and the cost of each vehicleID. 
